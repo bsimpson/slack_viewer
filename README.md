@@ -42,6 +42,10 @@ You should have a list of files in your data/ directory (your contents will vary
 etc
 ```
 
+## Install modules
+
+`npm install`
+
 ## Start the webserver
 
 ```
