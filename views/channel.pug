@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  each comment in comments
+    .row.mb-3
+      .col-md-1
+        img.rounded.align-text-top(src=comment['avatar'])
+      .col-md-11
+        .row
+          .col.font-weight-bold
+            span.pr-2
+              =comment['real_name']
+            span.text-muted.small
+              =comment['ts']
+        .row
+          .col
+            - var systemMessage = !!comment['subtype']
+            if systemMessage
+              span.font-italic.text-muted
+                =comment['text']
+            else
+              =comment['text']
+
+        .row
+          .col
+            if comment['reactions']
+              span.text-muted.small
+                each reaction in comment['reactions']
+                  =reaction['name']
