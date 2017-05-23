@@ -6,11 +6,11 @@ to mess around with Node, Bootstrap 4, and Express
 ## Setup
 
 You will need to export Slack data. Download the zipped JSON file from:
-https://<your-team-name>.slack.com/services/export
+`https://<your-team-name>.slack.com/services/export`
 
 ## Install Node
 
-Instructions vary per operating system, so check out the instructions at https://nodejs.org/en/download/
+Instructions vary per operating system, so check out the instructions at [NodeJS download](https://nodejs.org/en/download/)
 
 ## Checkout this project
 
@@ -24,11 +24,11 @@ cd slack_viewer
 ```
 mkdir data
 cd data
-cp /path/to/download.zip ./
-unzip download.zip
+mv /path/to/slack_download.zip ./
+unzip slack_download.zip
 ```
 
-You should have a list of files like (your contents will vary)
+You should have a list of files in your data/ directory (your contents will vary)
 
 ```
 |-- channels.json
