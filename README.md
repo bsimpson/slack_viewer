@@ -15,7 +15,7 @@ Instructions vary per operating system, so check out the instructions at https:/
 ## Checkout this project
 
 ```
-git clone github.com/bsimpson/slack_viewer
+git clone git@github.com:bsimpson/slack_viewer.git
 cd slack_viewer
 ```
 
