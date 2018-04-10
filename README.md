@@ -3,6 +3,8 @@
 Why? This was an experiment to quickly show archived Slack data. It was also a pretty compelling reason
 to mess around with Node, Bootstrap 4, and Express
 
+![Screenshot of Archive Viewer](public/Screenshot-2018-4-9%20food-and-kitchen.png)
+
 ## Setup
 
 You will need to export Slack data. Download the zipped JSON file from:
